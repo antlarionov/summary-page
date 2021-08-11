@@ -15,6 +15,8 @@ description = "Antlar's personal website"
 keywords = "blog,developer,personal"
 info = ["DevOps", "Magician"]
 avatarURL = "/images/avatar.jpg"
+favicon_32 = "/images/favicon.png"
+favicon_16 = "/images/favicon.png"
 footerContent = "“DevOps is not a Goal, But a never-ending process of continual improvement” – Jez Humble"
 dateFormat = "January 2, 2006"
 hideFooter = false
@@ -38,7 +40,7 @@ maxSeeAlsoItems = 5
 # Enable Twemoji
 enableTwemoji = false
 # Custom CSS
-customCSS = []
+customCSS = ["css/custom.css"]
 # Custom SCSS
 customSCSS = []
 # Custom JS
