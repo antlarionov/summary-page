@@ -32,8 +32,8 @@ jobs:
         run: hugo --minify
 
 
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.0
+      - name: Rsync Deployments
+        uses: Burnett01/rsync-deployments@5.0
         with:
           switches: -avr --delete
           path: public/
