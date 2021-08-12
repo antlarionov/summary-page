@@ -1,4 +1,4 @@
-baseURL = "https://antlar.xyz/"
+baseURL = "http://antlar.xyz/"
 title = "antlar"
 theme = "hugo-coder"
 languageCode = "en"
