@@ -32,9 +32,12 @@ jobs:
         run: hugo --minify
 
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          switches: -avr --delete
+          path: public/
+          remote_path: ${{ secrets.DO_SITE_PATH }}
+          remote_host: ${{ secrets.DO_HOST }}
+          remote_user: ${{ secrets.DO_USER }}
+          remote_key: ${{ secrets.DO_SSH_SECRET }}
