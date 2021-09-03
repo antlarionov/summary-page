@@ -17,7 +17,7 @@ maximal minimalistic.
         external:
           name: external
     ```
-    and also i had to create a new docker network which will share same net space between this website compose and the 
+    and also I had to create a new docker network which will share same net space between this website compose and the 
 one that is responsible for proxying and ssl termination.
 
 
