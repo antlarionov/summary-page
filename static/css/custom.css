@@ -3,5 +3,6 @@ body {
 }
 
 pre {
-    background-color: #49395a;
+    background-color: #5a4e6d !important;
+    color: #c9c9c9;
 }
