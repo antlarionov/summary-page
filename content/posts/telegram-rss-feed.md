@@ -1,5 +1,5 @@
 ---
-title: "Ad telegram RSS feed to blog"
+title: "Add telegram RSS feed to blog"
 date: 2021-09-05T15:44:40+03:00
 draft: false
 ---
