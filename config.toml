@@ -111,16 +111,22 @@ weight = 2
 url = "https://www.linkedin.com/in/antlar/"
 
 [[params.social]]
-name = "LinkedIn"
+name = "Telegram"
 icon = "fa fa-telegram"
 weight = 3
 url = "https://t.me/antlar"
 
 [[params.social]]
-name = "LinkedIn"
+name = "VK"
 icon = "fa fa-vk"
 weight = 4
 url = "https://vk.com/antlarionov"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa fa-instagram"
+weight = 4
+url = "https://www.instagram.com/antlarionov/"
 
 [[params.social]]
 name = "HeadHunter"
